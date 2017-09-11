@@ -15,6 +15,10 @@
 		11BCDD2D1F29793A00BBE43A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BCDD2B1F29793A00BBE43A /* Main.storyboard */; };
 		11BCDD2F1F29793A00BBE43A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BCDD2E1F29793A00BBE43A /* Assets.xcassets */; };
 		11BCDD321F29793A00BBE43A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BCDD301F29793A00BBE43A /* LaunchScreen.storyboard */; };
+		11BCDD3A1F299F5F00BBE43A /* l8.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BCDD391F299F5F00BBE43A /* l8.png */; };
+		11BCDD3C1F299F6500BBE43A /* l9.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BCDD3B1F299F6500BBE43A /* l9.png */; };
+		11BCDD7F1F2B078C00BBE43A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BCDD7D1F2B078C00BBE43A /* Assets.xcassets */; };
+		11BCDD8D1F2B0A0100BBE43A /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11BCDD8C1F2B0A0100BBE43A /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		11BCDD2E1F29793A00BBE43A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11BCDD311F29793A00BBE43A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11BCDD331F29793A00BBE43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BCDD391F299F5F00BBE43A /* l8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l8.png; sourceTree = "<group>"; };
+		11BCDD3B1F299F6500BBE43A /* l9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l9.png; sourceTree = "<group>"; };
+		11BCDD7D1F2B078C00BBE43A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11BCDD8C1F2B0A0100BBE43A /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = MyParticle.sks; path = ../MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +52,11 @@
 		11BCDD151F29793A00BBE43A = {
 			isa = PBXGroup;
 			children = (
+				11BCDD7D1F2B078C00BBE43A /* Assets.xcassets */,
 				11BCDD201F29793A00BBE43A /* 5balls */,
 				11BCDD1F1F29793A00BBE43A /* Products */,
+				11BCDD391F299F5F00BBE43A /* l8.png */,
+				11BCDD3B1F299F6500BBE43A /* l9.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +71,7 @@
 		11BCDD201F29793A00BBE43A /* 5balls */ = {
 			isa = PBXGroup;
 			children = (
+				11BCDD8C1F2B0A0100BBE43A /* MyParticle.sks */,
 				11BCDD211F29793A00BBE43A /* AppDelegate.swift */,
 				11BCDD231F29793A00BBE43A /* GameScene.sks */,
 				11BCDD251F29793A00BBE43A /* Actions.sks */,
@@ -105,6 +117,7 @@
 				TargetAttributes = {
 					11BCDD1D1F29793A00BBE43A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5BX27SYC93;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +149,11 @@
 				11BCDD241F29793A00BBE43A /* GameScene.sks in Resources */,
 				11BCDD2F1F29793A00BBE43A /* Assets.xcassets in Resources */,
 				11BCDD321F29793A00BBE43A /* LaunchScreen.storyboard in Resources */,
+				11BCDD8D1F2B0A0100BBE43A /* MyParticle.sks in Resources */,
 				11BCDD261F29793A00BBE43A /* Actions.sks in Resources */,
+				11BCDD3A1F299F5F00BBE43A /* l8.png in Resources */,
+				11BCDD3C1F299F6500BBE43A /* l9.png in Resources */,
+				11BCDD7F1F2B078C00BBE43A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +291,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5BX27SYC93;
 				INFOPLIST_FILE = 5balls/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lzf.-balls";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,8 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5BX27SYC93;
 				INFOPLIST_FILE = 5balls/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lzf.-balls";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,6 +334,7 @@
 				11BCDD381F29793A00BBE43A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
